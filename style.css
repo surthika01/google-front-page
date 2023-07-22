@@ -1,0 +1,78 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: rgb(18, 3, 8);
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.dot {
+  height: 23px; 
+  position: relative;
+  bottom: 4px;
+}
+.signinbutton {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+}
+.logo {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23%;
+}
+.bar {
+  margin: auto;
+  width: 575px;
+  border-radius: 205px;
+  border: 1px gray;
+}
+.bar:hover {
+  box-shadow: 1px 1px 2px 1px gray;
+}
+.bar:focus-within {
+  box-shadow: 1px 1px 2px 1px gray;
+  outline: none;
+}
+.searchbar {
+  height: 45px;
+  border: none;
+  width: 480px;
+  font-size: 16px;
+  border-radius: 25px;
+  outline: none;
+}
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.search {
+  height: 20px;
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+.camera {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
